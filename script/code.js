@@ -41,3 +41,19 @@ function middle(){
     let mids = numbers.length/2
     numbers.slice[numbers.length]
 }
+
+// js EOMP
+function deleteProduct(){
+  try{
+      let index = admin.findIndex(a =>{
+          return a.id == a.id
+      })
+      localStorage.setItem('products', JSON.stringify(admin))
+      admin.splice(index, 1)
+  }catch(e){
+      console.log(e.message);
+  }
+}
+deleteProduct()
+
+del.addEventListener('click', deleteProduct)
